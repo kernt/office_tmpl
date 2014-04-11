@@ -1,0 +1,137 @@
+\documentclass{beamer}
+\documentclass[draft]{beamer}
+\documentclass[handout]{beamer}
+\documentclass{article}
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+% Vorgefertigte Themen ermöglichen ein ansprechendes Äußeres ohne viel Aufwand einfach das % löschen
+%
+%
+%\usetheme{AnnArbor }
+%\usetheme{ Antibes }
+%\usetheme{ Bergen |Berkeley | Berlin | Boadilla |boxes | CambridgeUS | Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Berkeley | Berlin | Boadilla |boxes | CambridgeUS | Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Berlin | Boadilla |boxes | CambridgeUS | Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Boadilla |boxes | CambridgeUS | Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ boxes | CambridgeUS | Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ CambridgeUS | Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Copenhagen |Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Darmstadt | default | Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Dresden |Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{Frankfurt | Goettingen |Hannover |Ilmenau | JuanLesPins | Luebeck |Madrid | Malmoe | Marburg |Montpellier | PaloAlto | Pittsburgh |Rochester | Singapore | Szeged |Warsaw}
+%\usetheme{ Goettingen }
+%\usetheme{ Hannover}
+%\usetheme{ Ilmenau }
+%\usetheme{ JuanLesPins }
+%\usetheme{ Luebeck}
+%\usetheme{ Madrid }
+%\usetheme{ Malmoe}
+%\usetheme{ Montpellier}
+%\usetheme{ PaloAlto }
+%\usetheme{ Pittsburgh }
+%\usetheme{ Rochester }
+%\usetheme{ Singapore }
+%\usetheme{ Szeged }
+\usetheme{ Warsaw}
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %%%
+%
+%
+%
+%Farbthemen bestimmen die Farben einer Folie.
+%
+%\usecolortheme{ albatross}
+%\usecolortheme{ beaver }
+%\usecolortheme{  beetle }
+%\usecolortheme{ crane }
+%\usecolortheme{ dolphin }
+%\usecolortheme{ dove }
+%\usecolortheme{ fly }
+%\usecolortheme{ lily }
+%\usecolortheme{ orchid }
+%\usecolortheme{ rose}
+\usecolortheme{ seagull }
+%\usecolortheme{ seahorse }
+%\usecolortheme{ sidebartab }
+%\usecolortheme{ structure }
+%\usecolortheme{ whale }
+%\usecolortheme{  wolverine }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%Die Themen für Schriftzeichen bestimmen die Schriftart.
+%
+%
+%\usefonttheme{ serif }
+\usefonttheme{ professionalfonts }
+%\usefonttheme{ structurebold  }
+%\usefonttheme{ structureitalicserif  }
+%\usefonttheme{ structuresmallcapsserif }
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%\useinnertheme{ rounded }
+%\useinnertheme{ circles }
+%\useinnertheme{ inmargin }
+%\useinnertheme{ rectangles }
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%Äußere Themen spezifizieren die Grenzen einer Folie und sagen ob und wo die inneren Elemente liegen.
+%
+%\useoutertheme{ infolines }
+%\useoutertheme{ miniframes }
+%\useoutertheme{ shadow  }
+%\useoutertheme{ sidebar }
+%\useoutertheme{ smoothbars }
+\useoutertheme{ smoothtree }
+%\useoutertheme{ split }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Um halbtransparente Overlays auf seinen Folien zu haben, reicht es folgenden Schalter zu setzen:
+%
+%\setbeamercovered{transparent}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Zum Abschalten der kleinen Navigationsleiste am unteren Rand reicht folgende Zeile aus:
+%
+%\beamertemplatenavigationsymbolsempty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%Seitenzahlen in Fußzeile einfügen
+%
+\setbeamertemplate{footline}[frame number]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%Um die Metainfomationen zu setzen die unter anderem für die Titelseite verwendet werden, kann man sich folgender Befehle bedienen
+%
+%
+\title[Kurzform]{Vortrag zur Berechenbarkeit}
+%    Titel des Vortrages
+\subtitle[Kurzform]{Untertitel}
+%
+\title[Kurzform]{Vortrag zur Berechenbarkeit}
+%    Titel des Vortrages
+\subtitle[Kurzform]{Untertitel}
+%    Untertitel
+\author[M. Schulz]{Michael Schulz}
+%    Autor festlegen
+\institute[IfI -- HU Berlin]{Institut für Informatik\\ Humboldt-Universität zu Berlin}
+%    Angabe des Institutes
+\date[26.05.06]{26. Mai 2006}
+%    Datum der Präsentation, alternativ kann mittels \date{\today} auch das aktuelle Datum eingetragen werden.
+\logo{\pgfimage[width=2cm,height=2cm]{hulogo}}
+%    Die Datei hulogo.pdf (bzw. hulogo.png, hulogo.jpg, hulogo.mps bei Verwendung von pdftex als Backend) als Logo auf allen Folien, hier mithilfe des Paketes pgf.
+\titlegraphic{\includegraphics[width=2cm,height=2cm]{hulogo}}
+%    Die Datei hulogo.pdf (bzw. analog wie bei \logo auch entsprechendes Format) als Logo nur auf der Titelseite unter Verwendung des Paketes graphicx.
+\subject{Berechenbarkeit}
+%    Setzt Thema in den PDF-Dokument-Eigenschaften
+\keywords{Gödelsätze, Unentscheidbarkeit}
+%    Setzt Schlüsselwörter in den PDF-Dokument-Eigenschaften     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Die erste Folie
+%
+%Einzelne Folien erzeugt man mittels Frame-Umgebung. Ein Frame kann wiederum mehrere Slides enthalten, die etwa durch Seitenumbrüche oder Overlay-Aktionen entstehen.
+\begin{frame}[Overlay-Aktionen][Optionen]{Titel}{Untertitel}
+	Inhalt
+\end{frame}
+
+% Quelle: http://www2.informatik.hu-berlin.de/~mischulz/beamer.html
